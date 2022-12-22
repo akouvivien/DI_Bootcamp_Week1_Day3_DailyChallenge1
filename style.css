@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgb(233, 229, 229);
+}
+
+.boxe {
+    height: 70px;
+    width: 70px;
+    background-color: yellow;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.milieu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
